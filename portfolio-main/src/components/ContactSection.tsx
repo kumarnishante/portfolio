@@ -88,7 +88,7 @@ const ContactSection = () => {
                   value={formData.email}
                   onChange={handleChange}
                   className="w-full px-4 py-3 rounded-lg border border-input bg-background focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all duration-300"
-                  placeholder="rakshitsinha@example.com"
+                  placeholder="kumarnishant@example.com"
                 />
               </div>
               <div className="space-y-2">
@@ -138,7 +138,7 @@ const ContactSection = () => {
                     <div>
                       <p className="text-sm text-muted-foreground">Email</p>
                       <a href="mailto:john@example.com" className="hover:text-primary transition-colors">
-                        sinha.rakshit.28@gmail.com
+                        krnishantcse@gmail.com
                       </a>
                     </div>
                   </div>
@@ -150,7 +150,7 @@ const ContactSection = () => {
                     <div>
                       <p className="text-sm text-muted-foreground">Phone</p>
                       <a href="tel:+1234567890" className="hover:text-primary transition-colors">
-                        +91 7980618733
+                        +91 7372882301
                       </a>
                     </div>
                   </div>
@@ -161,7 +161,7 @@ const ContactSection = () => {
                 <h3 className="text-xl font-semibold">Follow Me</h3>
                 <div className="flex gap-4">
                   <a 
-                    href="https://github.com/sinha-rakshit"
+                    href="https://github.com/kumarnishante"
                     target="_blank"
                     rel="noopener noreferrer" 
                     className="p-3 bg-card border border-border rounded-full hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all duration-300"
@@ -170,7 +170,7 @@ const ContactSection = () => {
                     <Github className="w-5 h-5" />
                   </a>
                   <a 
-                    href="https://www.linkedin.com/in/sinha-rakshit/" 
+                    href="https://www.linkedin.com/in/kumarnishante/" 
                     target="_blank"
                     rel="noopener noreferrer" 
                     className="p-3 bg-card border border-border rounded-full hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all duration-300"
@@ -179,7 +179,7 @@ const ContactSection = () => {
                     <Linkedin className="w-5 h-5" />
                   </a>
                   <a 
-                    href="https://www.instagram.com/rakshit__sinha?igsh=MTBicjllbDFvM3d4aQ=="
+                    href="https://www.instagram.com/kumarnishante/"
                     target="_blank"
                     rel="noopener noreferrer" 
                     className="p-3 bg-card border border-border rounded-full hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all duration-300"
@@ -188,7 +188,7 @@ const ContactSection = () => {
                     <Instagram className="w-5 h-5" />
                   </a>
                   <a 
-                    href="https://wa.me/917980618733?text=Hi%20Rakshit!%20I%20would%20like%20to%20connect."
+                    href="https://wa.me/917372882301?text=Hi%20Kumar!%20I%20would%20like%20to%20connect."
                     target="_blank"
                     rel="noopener noreferrer" 
                     className="p-3 bg-card border border-border rounded-full hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all duration-300"

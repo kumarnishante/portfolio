@@ -12,12 +12,12 @@ const ProjectSection = () => {
       demo: "#",
     },
     {
-      title: "5K Global Run Website",
-      description: "Integrated and deployed a high-performance website on AWS to manage a global running event, efficiently handling a user load of 5K participants. Ensured smooth user experience with optimized backend and secure API endpoints.",
-      image: "/assets/5kGlobal.png",
-      tags: ["AWS EC2", "Route 53", "Postman", "Node.js", "Express"],
+      title: "Attention-based Efficient CNN-GRU Architecture for Human Action Recognition",
+      description: "My project focuses on attention-based human activity recognition, utilizing deep learning to enhance accuracy by prioritizing relevant features in sequential data for improved classification and analysis.",
+      image: "/assets/HIR.png",
+      tags: ["CNN", "Bi-GRU", "Numpy", "Tensorflow",],
       github: "#",
-      demo: "https://girls5k.org/",
+      demo: "https://colab.research.google.com/drive/1Ph3rW5Lvp5nH-Jcfpn9qiSjzYgiCuq2u?usp=sharing#scrollTo=uo3C8a-DyxQA",
     },
     {
       title: "Email Authentication API",
@@ -27,14 +27,14 @@ const ProjectSection = () => {
       github: "#",
       demo: "#",
     },
-    {
-      title: "Blockchain-Based EHR Management",
-      description: "A secure and efficient system for storing electronic health records and managing billing on a permissioned blockchain. Enabled doctors to securely add prescriptions and bills to patient accounts, ensuring data integrity and privacy.",
-      image: "/assets/blockchain.png",
-      tags: ["Solidity", "Ether.js", "IPFS", "Hardhat", "Metamask", "Next.js", "Styled Components"],
-      github: "#",
-      demo: "#",
-    },
+    // {
+    //   title: "Blockchain-Based EHR Management",
+    //   description: "A secure and efficient system for storing electronic health records and managing billing on a permissioned blockchain. Enabled doctors to securely add prescriptions and bills to patient accounts, ensuring data integrity and privacy.",
+    //   image: "/assets/blockchain.png",
+    //   tags: ["Solidity", "Ether.js", "IPFS", "Hardhat", "Metamask", "Next.js", "Styled Components"],
+    //   github: "#",
+    //   demo: "#",
+    // },
   ];
 
   return (

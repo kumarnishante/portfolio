@@ -37,6 +37,43 @@ import {
 const SkillSection = () => {
   const skills = [
     {
+      category: "Data Structures",
+      icon: <Server className="h-5 w-5 text-primary" />,
+      description: "Technologies for server-side application logic and data management",
+      items: [
+        { 
+          name: "Arrays", 
+          icon: <Server className="h-6 w-6 text-green-600" />,
+          description: ""
+        },
+        { 
+          name: "Linked Lists", 
+          icon: <Server className="h-6 w-6 text-gray-500" />,
+          description: ""
+        },
+        { 
+          name: "Stacks", 
+          icon: <Database className="h-6 w-6 text-green-500" />,
+          description: "NoSQL document database"
+        },
+        { 
+          name: "Queues", 
+          icon: <Database className="h-6 w-6 text-blue-600" />,
+          description: ""
+        },
+        { 
+          name: "Trees", 
+          icon: <Code className="h-6 w-6 text-indigo-500" />,
+          description: ""
+        },
+        { 
+          name: "Graphs", 
+          icon: <Boxes className="h-6 w-6 text-blue-500" />,
+          description: ""
+        }
+      ],
+    },
+    {
       category: "Frontend",
       icon: <Monitor className="h-5 w-5 text-primary" />,
       description: "Technologies for building user interfaces and client-side applications",
@@ -61,11 +98,11 @@ const SkillSection = () => {
           icon: <Boxes className="h-6 w-6 text-blue-400" />,
           description: "Library for building user interfaces"
         },
-        { 
-          name: "Next.Js", 
-          icon: <Boxes className="h-6 w-6 text-black dark:text-white" />,
-          description: "React framework for production"
-        },
+        // { 
+        //   name: "Next.Js", 
+        //   icon: <Boxes className="h-6 w-6 text-black dark:text-white" />,
+        //   description: "React framework for production"
+        // },
         { 
           name: "Tailwind CSS", 
           icon: <Palette className="h-6 w-6 text-cyan-500" />,
@@ -103,23 +140,24 @@ const SkillSection = () => {
           icon: <Code className="h-6 w-6 text-indigo-500" />,
           description: "Architecture for networked applications"
         },
-        { 
-          name: "Docker", 
-          icon: <Boxes className="h-6 w-6 text-blue-500" />,
-          description: "Platform for developing and deploying applications"
-        }
+        // { 
+        //   name: "Docker", 
+        //   icon: <Boxes className="h-6 w-6 text-blue-500" />,
+        //   description: "Platform for developing and deploying applications"
+        // }
       ],
     },
+    
     {
       category: "Tools & Others",
       icon: <Wrench className="h-5 w-5 text-primary" />,
       description: "Development tools and additional technologies",
       items: [
-        { 
-          name: "AWS", 
-          icon: <Cloud className="h-6 w-6 text-orange-500" />,
-          description: "Cloud computing platform"
-        },
+        // { 
+        //   name: "AWS", 
+        //   icon: <Cloud className="h-6 w-6 text-orange-500" />,
+        //   description: "Cloud computing platform"
+        // },
         { 
           name: "Git", 
           icon: <Code className="h-6 w-6 text-orange-600" />,
@@ -135,11 +173,11 @@ const SkillSection = () => {
           icon: <Terminal className="h-6 w-6 text-blue-600" />,
           description: "Source code editor"
         },
-        { 
-          name: "Jira", 
-          icon: <Cog className="h-6 w-6 text-blue-500" />,
-          description: "Issue tracking and project management tool"
-        },
+        // { 
+        //   name: "Jira", 
+        //   icon: <Cog className="h-6 w-6 text-blue-500" />,
+        //   description: "Issue tracking and project management tool"
+        // },
       ],
     },
   ];
@@ -215,30 +253,30 @@ const SkillSection = () => {
           <Card className="bg-card rounded-xl border border-border/40 shadow-sm transition-all duration-200 hover:shadow-md hover:border-primary/80 hover:scale-[1.02] animate-slide-in-bottom">
             <CardHeader className="pb-2 pt-6">
               <CardTitle className="text-xl font-semibold text-center flex items-center justify-center gap-2">
-                <Wrench className="h-5 w-5 text-primary" />
-                Other Skills & Areas of Expertise
+                {/* <Wrench className="h-5 w-5 text-primary" /> */}
+                {/* Other Skills & Areas of Expertise */}
               </CardTitle>
             </CardHeader>
             
             <CardContent className="pt-6 px-8 py-6">
               <div className="flex flex-wrap justify-center gap-3">
                 {[
-                  "Microservices Architecture",
-                  "Kubernetes",
-                  "Database Optimization",
-                  "Redis & Caching",
-                  "Authentication & Authorization",
-                  "Security Best Practices",
-                  "Load Balancing",
-                  "Message Queues (RabbitMQ/Kafka)",
-                  "ORMs (Sequelize, Mongoose)",
-                  "Unit & Integration Testing",
-                  "Error Handling & Logging",
-                  "WebSockets",
-                  "GraphQL",
-                  "CI/CD Pipelines",
-                  "API Documentation (Swagger)",
-                  "Cloud Infrastructure",
+                  // "Microservices Architecture",
+                  // "Kubernetes",
+                  // "Database Optimization",
+                  // "Redis & Caching",
+                  // "Authentication & Authorization",
+                  // "Security Best Practices",
+                  // "Load Balancing",
+                  // "Message Queues (RabbitMQ/Kafka)",
+                  // "ORMs (Sequelize, Mongoose)",
+                  // "Unit & Integration Testing",
+                  // "Error Handling & Logging",
+                  // "WebSockets",
+                  // "GraphQL",
+                  // "CI/CD Pipelines",
+                  // "API Documentation (Swagger)",
+                  // "Cloud Infrastructure",
                 ].map((item, index) => (
                   <span 
                     key={index} 

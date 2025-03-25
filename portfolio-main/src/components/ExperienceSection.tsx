@@ -4,28 +4,29 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 const ExperienceSection = () => {
   const experiences = [
-    {
-      title: "SDE Intern",
-      company: "Mediversal Healthcare",
-      duration: "Feb 2025 - Ongoing",
-      description: "Deployed an online registration platform on AWS EC2 with Route 53, ensuring 99.9% uptime and sub-2s load times. Secured email authentication and optimized RESTful APIs with Node.js and Express, improving response time by 25%. Built the front end using React Native CLI, reducing load times to under 1.5 seconds.",
-      skills: ["AWS EC2", "Route 53", "Node.js", "Express", "React Native", "Docker", "TypeScript", "BitBucket"],
-      link: "#"
-    },
+    // {
+    //   title: "SDE Intern",
+    //   company: "Mediversal Healthcare",
+    //   duration: "Feb 2025 - Ongoing",
+    //   description: "Deployed an online registration platform on AWS EC2 with Route 53, ensuring 99.9% uptime and sub-2s load times. Secured email authentication and optimized RESTful APIs with Node.js and Express, improving response time by 25%. Built the front end using React Native CLI, reducing load times to under 1.5 seconds.",
+    //   skills: ["AWS EC2", "Route 53", "Node.js", "Express", "React Native", "Docker", "TypeScript", "BitBucket"],
+    //   link: "#"
+    // },
     {
       title: "Summer Intern",
-      company: "Prof. Prabhat Kumar, NITP",
-      duration: "May 2024 - July 2024",
-      description: "Developed a parking management algorithm in C++ to optimize vehicle assignment and space allocation. Orchestrated Algorithms to ensure the shortest path to selected spots, improving efficiency across various parking configurations.",
-      skills: ["System Design", "Data Structures", "Algorithms", "C++"],
+      company: "EiSystem",
+      duration: "May 2024 - June 2024",
+      description: "Engineered PharmaCart, an online pharmacy platform hosting 1,000+ products, ensuring a 99.9% secure transaction process.",
+      skills: ["HTML", "CSS", "Javascript", "React"],
       link: "#"
     },
+    
     {
-      title: "Community Lead",
+      title: "ML Lead",
       company: "HackSlash Developers Community",
       duration: "Aug 2023 - July 2024",
-      description: "Led 100+ members, managing 5+ projects using Agile and expanding outreach by 42%. Organized ByteVerse Hackathon with 2000+ participants (57% growth) and conducted 30+ bootcamps. Partnered with GDG Patna, Postman, Devfolio, and PW Skills for key events, overseeing the successful completion of 5-6 projects.",
-      skills: ["Jira", "GitHub", "Postman", "Project Management", "Community Building"],
+      description: "Led the ML team consisting of 13+ members, organized introductory sessions for 130+ students at NIT Patna. Organized ByteVerse Hackathon with 2000+ participants (57% growth) and conducted 30+ bootcamps. Partnered with GDG Patna, Postman, Devfolio, and PW Skills for key events, overseeing the successful completion of 5-6 projects.",
+      skills: ["GitHub", "Postman", "Project Management", "Community Building"],
       link: "#"
     },
   ];

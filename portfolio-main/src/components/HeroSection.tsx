@@ -8,7 +8,7 @@ const HeroSection = () => {
     setIsDownloading(true);
 
     const fileUrl =
-      'https://drive.google.com/uc?export=download&id=1kz4s2JYAK8Xp6YwbF3yUTFe4SXk3ivb7';
+      'https://drive.google.com/file/d/1ES9Uepj_pRcF3ZVPvbA5XS0Wzduru5Gg/view?usp=sharing';
 
     try {
       const link = document.createElement('a');
@@ -56,7 +56,7 @@ const HeroSection = () => {
                     </div>
                     <div className="pl-6">
                       <span className="text-muted-foreground">name:</span>{' '}
-                      <span className="text-green-500">'Rakshit Sinha'</span>,
+                      <span className="text-green-500">'Kumar Nishant'</span>,
                     </div>
                     <div className="pl-6">
                       <span className="text-muted-foreground">skills:</span> [
@@ -80,7 +80,7 @@ const HeroSection = () => {
           <div className="space-y-8 animate-fade-in order-2 lg:order-1">
             <div className="space-y-2">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
-                Hi, I'm <span className="text-primary">Rakshit Sinha</span>
+                Hi, I'm <span className="text-primary">Kumar Nishant</span>
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground">Software Developer</p>
             </div>

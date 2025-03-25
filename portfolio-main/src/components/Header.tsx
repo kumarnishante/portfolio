@@ -66,7 +66,7 @@ const Header = () => {
     >
       <div className="section-container py-4 flex items-center justify-between">
         <a href="#home" className="text-xl font-semibold">
-          <span className="text-primary">Rakshit </span>Sinha
+          <span className="text-primary">Kumar </span>Nishant
         </a>
 
         {/* Desktop Navigation */}

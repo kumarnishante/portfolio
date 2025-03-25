@@ -18,12 +18,11 @@ const AboutSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 order-2 lg:order-1 animate-fade-in">
           <p className="text-lg">
-            I'm a passionate software developer skilled in building scalable web and mobile applications, with a strong focus on writing clean, efficient code and delivering intuitive user experiences. I have hands-on experience with AWS, JavaScript, TypeScript, Node.js, React, React Native, and various backend technologies.
+          I am a Computer Science student at NIT Patna with a strong passion for software development, AI, and machine learning. I specialize in building scalable applications using React, Node.js, and deep learning frameworks. I love solving challenging problems and creating efficient, user-friendly solutions that make a real-world impact.
           </p>
 
           <p className="text-lg">
-            I’ve contributed to diverse projects, includinng secure storage systems on blockchain, optimized parking algorithms, and high-traffic APIs. As a community leader and placement coordinator, I’ve also led hackathons and collaborated with industry leaders. I'm always eager to explore new technologies and take on challenging projects.
-          </p>
+          With experience in full-stack development and AI research, I have worked on projects like PharmaCart and an attention-based CNN-GRU model for human action recognition. I enjoy collaborating, mentoring, and continuously learning new technologies. My goal is to innovate and develop intelligent systems that enhance user experience and drive efficiency.          </p>
             
             <div className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
