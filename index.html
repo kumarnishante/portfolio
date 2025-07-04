@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1"
+    />
+    <title>Kumar Nishant</title>
+    <meta name="description" content="Kumar Nishant's Portfolio" />
+    <meta name="author" content="Kumar Nishant" />
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Kumar Nishant" />
+    <meta property="og:description" content="Kumar Nishant's Portfolio" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="/assets/snapshot.png"
+    />
+    <meta property="og:url" content="/assets/snapshot.png" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@Kumar_Nishant" />
+    <meta
+      name="twitter:image"
+      content="/assets/snapshot.png"
+    />
+
+    <!-- Preload Critical Resources -->
+    <link
+      rel="preload"
+      href="/src/main.tsx"
+      as="script"
+      type="module"
+    />
+
+    <!-- Favicon (Optional) -->
+    <link rel="icon" href="/favicon.ico" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <!-- Fallback for No JavaScript -->
+    <noscript>Please enable JavaScript to view this site.</noscript>
+    <script type="module" src="/src/main.tsx" defer></script>
+  </body>
+</html>
