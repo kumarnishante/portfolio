@@ -16,7 +16,7 @@ const ProjectSection = () => {
       description: "My project focuses on attention-based human activity recognition, utilizing deep learning to enhance accuracy by prioritizing relevant features in sequential data for improved classification and analysis.",
       image: "/assets/HIR.png",
       tags: ["CNN", "Bi-GRU", "Numpy", "Tensorflow",],
-      github: "#",
+      github: "https://colab.research.google.com/drive/1Ph3rW5Lvp5nH-Jcfpn9qiSjzYgiCuq2u?usp=sharing#scrollTo=uo3C8a-DyxQA",
       demo: "https://colab.research.google.com/drive/1Ph3rW5Lvp5nH-Jcfpn9qiSjzYgiCuq2u?usp=sharing#scrollTo=uo3C8a-DyxQA",
     },
     {
